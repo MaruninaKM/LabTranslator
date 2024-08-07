@@ -29,9 +29,9 @@ LabTranslator - веб-приложение на языке Java для пере
 
 ---------- Требования ---------- 
 
-Java 22
-Maven
-Spring Boot
+- Java 22
+- Maven
+- Spring Boot
 
 ---------- База данных ---------- 
 
@@ -100,11 +100,13 @@ mvn clean install
 mvn spring-boot:run
 
 ---------- Переводчик ---------- 
+
 В данной работе использовался Яндекс переводчик
 https://translate.api.cloud.yandex.net/translate/v2/translate
 
 
 ---------- API ---------- 
+
 POST /translator
 --- Параметры запроса ---
 text (обязательный) — текст для перевода.
@@ -126,6 +128,7 @@ PS C:\Users\sumarn\IdeaProjects\LabTranslator> Invoke-RestMethod -Uri "http://lo
 Ответ: http 200 Здравствуйте мир, этот является мой первый программа
 
 ---------- Тестирование ---------- 
+
 Функиональные тесты прописаны в \src\test\java\com\example\labtranslator
 Тесты охватывают:
 - Верная работа программы
