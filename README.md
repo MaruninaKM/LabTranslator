@@ -108,7 +108,9 @@ https://translate.api.cloud.yandex.net/translate/v2/translate
 ---------- API ---------- 
 
 POST /translator
+
 --- Параметры запроса ---
+
 text (обязательный) — текст для перевода.
 sourceLang (обязательный) — исходный язык текста.
 targetLang (обязательный) — целевой язык перевода.
