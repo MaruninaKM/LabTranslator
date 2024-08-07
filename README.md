@@ -43,9 +43,7 @@ mvn spring-boot:run
 ---------- Переводчик ---------- 
 В данной работе использовался Яндекс переводчик
 https://translate.api.cloud.yandex.net/translate/v2/translate
-id каталога: b1g47p3oa9i874cvc61q
-Идентификатор ключа: ajea02qrgmv8votlh09f
-Ваш секретный ключ: AQVNygC1uFvo_jtYgS-m4CYYNPo5B9AGGkEDrbJr
+
 
 ---------- API ---------- 
 POST /translator
