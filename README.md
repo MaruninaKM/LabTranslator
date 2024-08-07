@@ -1,5 +1,7 @@
 
+-------------------------------------------------------------- 
 ---------- Лабораторная работа по Java ---------- 
+-------------------------------------------------------------- 
 
 ---------- Задание: ---------- 
 Вам необходимо разработать веб-приложение на языке Java/Kotlin для перевода набора слов на другой язык с использованием стороннего сервиса перевода (Яндекс, Google или др.).
@@ -34,7 +36,57 @@ Spring Boot
 ER-диаграмма представлена в файле diagrom.mvb
 Подключение к базе данных прописано в файле \src\main\resourcesapplication.properties
 
+-------------------------------------------------------------- 
+Файловая структура
+-------------------------------------------------------------- 
+├───.idea
+├───.mvn
+│   └───wrapper
+├───src
+│   ├───main
+│   │   ├───java
+│   │   │   └───com
+│   │   │       └───example
+│   │   │           └───labtranslator
+│   │   │               ├───controller
+│   │   │               ├───model
+│   │   │               ├───repository
+│   │   │               └───service
+│   │   └───resources
+│   │       ├───static
+│   │       └───templates
+│   └───test
+│       └───java
+│           └───com
+│               └───example
+│                   └───labtranslator
+└───target
+    ├───classes
+    │   └───com
+    │       └───example
+    │           └───labtranslator
+    │               ├───controller
+    │               ├───model
+    │               ├───repository
+    │               └───service
+    ├───generated-sources
+    │   └───annotations
+    ├───generated-test-sources
+    │   └───test-annotations
+    ├───maven-status
+    │   └───maven-compiler-plugin
+    │       ├───compile
+    │       │   └───default-compile
+    │       └───testCompile
+    │           └───default-testCompile
+    ├───surefire-reports
+    └───test-classes
+        └───com
+            └───example
+                └───labtranslator
+--------------------------------------------------------------                 
 ---------- Установка ---------- 
+-------------------------------------------------------------- 
 https://github.com/MaruninaKM/labtranslator.git
 cd labtranslator
 mvn clean install
