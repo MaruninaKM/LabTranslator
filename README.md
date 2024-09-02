@@ -105,7 +105,7 @@ C:\Users\sumarn>curl -X POST "http://localhost:8080/translator?text=Hello%20worl
 
 --- Пример запроса через терминал --- 
 
-PS C:\Users\sumarn\IdeaProjects\LabTranslator> Invoke-RestMethod -Uri "http://localhost:8080/translator" `
+PS C:\Users\yourname\IdeaProjects\LabTranslator> Invoke-RestMethod -Uri "http://localhost:8080/translator" `
 >>     -Body @{ text = "Hello world, this is my first program"; sourceLang = "en"; targetLang = "ru" } `
 >>     -ContentType "application/x-www-form-urlencoded"
 
